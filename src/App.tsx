@@ -135,8 +135,8 @@ export default function App() {
 
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section id="hero" className="min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-80px)] bg-brand-paper flex items-center px-6 md:px-12 py-12 md:py-0">
-          <div className="w-full grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <section id="hero" className="h-[calc(100vh-64px)] md:h-[calc(100vh-80px)] bg-brand-paper flex items-center px-6 md:px-12 py-8 md:py-0 overflow-hidden">
+          <div className="w-full h-full grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             
             {/* Photo - shows first on mobile */}
             <motion.div
@@ -145,7 +145,7 @@ export default function App() {
               transition={{ duration: 1, delay: 0.2 }}
               className="order-1 md:order-2 relative flex items-center justify-center"
             >
-             <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-none mx-auto aspect-[3/4] overflow-hidden rounded-[3rem] md:rounded-[6rem] shadow-2xl cursor-pointer group relative">
+             <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-none md:h-[75vh] mx-auto aspect-[3/4] md:aspect-auto overflow-hidden rounded-[3rem] md:rounded-[6rem] shadow-2xl cursor-pointer group relative">
                 <img 
                   src="/profile.jpg" 
                   alt="Z-won Yim" 
