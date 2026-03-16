@@ -157,7 +157,7 @@ export default function App() {
           {/* About Me Section */}
           <section id="about" className="mb-48 scroll-mt-32">
             <h2 className="text-4xl font-serif mb-16 text-blue-800">👩🏻‍💻 About Me</h2>
-            <div className="max-w-4xl">
+            <div className="w-full">
               <div className="space-y-6 text-2xl font-serif leading-relaxed opacity-90">
                 <p>
                   I am a product-focused MBA candidate at Duke Fuqua with 6+ years of experience building digital platforms in financial services.
