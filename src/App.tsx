@@ -145,11 +145,11 @@ export default function App() {
               transition={{ duration: 1, delay: 0.2 }}
               className="order-1 md:order-2 relative flex items-center justify-center"
             >
-             <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-none md:h-[75vh] mx-auto aspect-[3/4] md:aspect-auto overflow-hidden rounded-[3rem] md:rounded-[6rem] shadow-2xl cursor-pointer group relative">
+             <div className="w-full max-w-[280px] sm:max-w-sm md:max-w-none md:h-[80vh] mx-auto aspect-[4/5] md:aspect-[4/5] overflow-hidden rounded-[3rem] md:rounded-[5rem] shadow-2xl cursor-pointer group relative">
                 <img 
                   src="/profile.jpg" 
                   alt="Z-won Yim" 
-                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                   onClick={() => setIsImageExpanded(true)}
                   onError={(e) => {
