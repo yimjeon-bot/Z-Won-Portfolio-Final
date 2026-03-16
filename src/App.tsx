@@ -91,7 +91,7 @@ export default function App() {
     <div className="min-h-screen bg-brand-paper text-brand-ink font-sans selection:bg-brand-accent/30">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-brand-paper/80 backdrop-blur-md z-50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+        <div className="w-full px-6 md:px-12 h-20 flex items-center justify-between">
           <span className="font-serif text-2xl tracking-tight">Z won Yim</span>
           <div className="hidden md:flex items-center gap-12 text-sm font-medium uppercase tracking-widest">
             <a href="#about" className="hover:text-blue-800 hover:font-bold transition-all">About</a>
@@ -153,7 +153,7 @@ export default function App() {
           </div>
         </section>
 
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-32">
+        <div className="w-full px-6 md:px-12 py-32">
           {/* About Me Section */}
           <section id="about" className="mb-48 scroll-mt-32">
             <h2 className="text-4xl font-serif mb-16 text-blue-800">👩🏻‍💻 About Me</h2>
