@@ -149,7 +149,7 @@ export default function App() {
                 <img 
                   src="/profile.jpg" 
                   alt="Z-won Yim" 
-                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-contain md:object-cover md:object-right transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
                   onClick={() => setIsImageExpanded(true)}
                   onError={(e) => {
