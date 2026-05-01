@@ -86,7 +86,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-brand-paper/80 backdrop-blur-md z-50">
         <div className="w-full px-6 md:px-12 h-16 md:h-20 flex items-center justify-between">
-          <span className="font-serif text-xl md:text-2xl tracking-tight">Z won Yim</span>
+          <span className="font-serif text-xl md:text-2xl tracking-tight">Zwon Yim</span>
           
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-12 text-sm font-medium uppercase tracking-widest">
@@ -176,7 +176,7 @@ export default function App() {
             >
               <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif mb-4 md:mb-6 leading-[1.1] tracking-tight">
                 Hi, I'm <br />
-                <span className="text-blue-800">Z-won Yim</span>
+                <span className="text-blue-800">Zwon Yim</span>
               </h1>
               <div className="text-base md:text-xl opacity-80 mb-6 md:mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed space-y-2">
                 <p>MBA Candidate at Duke University's Fuqua School of Business.</p>
@@ -215,43 +215,32 @@ export default function App() {
                   id: 'pm',
                   period: 'Jan 2023 — Jun 2025',
                   location: 'Seoul, Korea',
-                  title: 'Product Manager',
+                  title: 'Product Manager – AI & Platforms',
                   company: 'Hana Bank',
                   summary: 'Led internal platform transformations and AI-enabled product initiatives to improve operational efficiency.',
                   bullets: [
-                    "Led a $227M internal platform transformation, defining requirements and coordinating UAT across 30+ cross-functional teams to improve operational visibility and speed analytics turnaround by 20%.",
-                    "Gathered feedback from teller teams and analyzed data to identify workflow gaps, translating outside-in and inside-out insights into system improvements that cut handling time by 10%.",
-                    "Owned an AI-enabled employee chatbot end-to-end, translating workflow pain points into product requirements and leading cross-functional rollout and adoption, reducing help desk tickets by 15%.",
-                    "Led global system rollout across 5 Southeast Asia markets, defining regional requirements and aligning cross-functional teams to execute GTM plans and improve operational consistency across markets."
+                    "Led a $227M AI-enabled platform transformation, aligning 80+ stakeholders and improving analytics speed by 25%.",
+                    "Owned an AI-powered customer support product, reducing inquiries by 20% across 10K+ monthly requests.",
+                    "Developed an AI teller support feature that helped frontline teams drive $1M+ in financial product sales.",
+                    "Designed onboarding journeys for customers aged 60+, doubling active adoption from 10K to 20K users.",
+                    "Built a 0→1 teller terminal system deployed across 935 branches and used by 14K+ tellers."
                   ],
                   label: 'Key Contributions'
                 },
                 {
                   id: 'pgm',
-                  period: 'Jan 2022 — Jan 2023',
+                  period: 'Jul 2021 — Jan 2023',
                   location: 'Seoul, Korea',
-                  title: 'Program Manager',
+                  title: 'Product Manager – Payments',
                   company: 'Hana Bank',
                   summary: 'Directed large-scale compliance system rebuilds and optimized CRM workflows through data-driven insights.',
                   bullets: [
-                    "Led a $600K SOX compliance system rebuild, defining requirements, authoring BRDs, and coordinating UAT and GTM execution across 30+ cross-functional teams, reducing compliance incidents by 20%.",
-                    "Gathered and prioritized feedback from 20 teams, translating operational needs into a system enhancement roadmap that reduced manual workflows by 10% and improved efficiency.",
-                    "Analyzed CRM workflows and tooling using performance data to identify process gaps, translating findings into business cases that informed tooling decisions and reduced manual work by 8%.",
-                    "Built KPI dashboards and executive reporting to surface risks and track milestones, improving leadership visibility and enabling faster decision-making across 30+ cross-functional stakeholders."
+                    "Partnered with Samsung Pay to improve payment failure visibility, reducing customer support inquiries by 20%.",
+                    "Built payment dashboards to track transaction trends and failure drivers, cutting reporting time by 40%.",
+                    "Managed GTM execution for digital payment launches across 5 Southeast Asia markets, supporting platforms with 1M+ users.",
+                    "Led a $600K compliance system consolidation, unifying 14 affiliate systems into one SOX-compliant platform."
                   ],
                   label: 'Key Contributions'
-                },
-                {
-                  id: 'ldp',
-                  period: 'Jul — Dec 2021',
-                  location: 'Daejeon, Korea',
-                  title: 'IT Leadership Development Program',
-                  company: 'KAIST x Hana Bank',
-                  summary: "Company-sponsored, full-time six-month advanced IT training at KAIST, Korea's top tech university.",
-                  bullets: [
-                    "Selected from 12,000 employees (top 0.3%) for advanced IT training focused on data analytics, process automation, and digital innovation to improve operational efficiency and customer experience."
-                  ],
-                  label: 'Highlights'
                 },
                 {
                   id: 'cea',
@@ -443,7 +432,7 @@ export default function App() {
 
       <footer className="py-8 md:py-12 px-6 md:px-12 border-t border-brand-ink/5 text-center">
         <p className="text-sm uppercase tracking-[0.4em] opacity-30">
-          © {new Date().getFullYear()} Z won Yim
+          © {new Date().getFullYear()} Zwon Yim
         </p>
       </footer>
 
